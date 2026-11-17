@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TracePoint
+
+**API Monitoring & Performance Tracking Platform**
+
+TracePoint is a full-stack API monitoring platform designed to help developers track the availability, reliability, and response times of their deployed APIs.
+
+The platform is planned to support automated endpoint checks, monitoring history, incident tracking, and a centralized dashboard for API health and performance.
+
+## Project Status
+
+**Planning & Requirements Analysis**
+
+TracePoint is currently in the planning and design stage. Implementation has not started.
+
+## Planned MVP Features
+
+- User authentication and authorization
+- API monitor creation and management
+- Support for multiple HTTP methods
+- Automated monitoring every five minutes
+- HTTP status code and response-time tracking
+- Request timeout and connection-error detection
+- Incident detection and recovery history
+- Monitoring dashboard with uptime and latency analytics
+
+These features are planned and have not yet been implemented.
+
+## Technology Stack
+
+| Technology | Purpose |
+|---|---|
+| Next.js | Full-stack application framework |
+| TypeScript | Type-safe development |
+| MongoDB | Data storage |
+| Mongoose | Database modeling |
+| Tailwind CSS | UI styling |
+
+Additional services and libraries will be selected during system design.
+
+## Documentation
+
+TracePoint follows an iterative software development process, with requirements and technical decisions documented before and during implementation.
+
+- [Project Overview](docs/overview.md)
+- [Product Requirements Document](docs/prd.md)
+
+Further documentation, including architecture, database design, API specifications, and testing strategy, will be added as the project progresses.
+
+## Development Approach
+
+The project follows an iterative Agile approach, emphasizing:
+
+- Requirements-driven development
+- Clear technical decision-making
+- Secure and maintainable architecture
+- Automated testing
+- Incremental implementation
+- Continuous documentation
 
 ## Getting Started
 
-First, run the development server:
+Local setup instructions will be added when the Next.js application is initialized.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## License
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+No license has been selected yet.
